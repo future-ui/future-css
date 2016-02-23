@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+body *:not(input):not(textarea):not(select) {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+div {
+    flex: 0 0 auto;
+    width: calc(99.99% * 1/3 - (2rem - 2rem * 1/3));
+}
+div:nth-child(1n) {
+    margin-right: 2rem;
+}
+div:last-child {
+    margin-right: 0;
+}
+div:nth-child(3n) {
+    float: right;
+}
+div:nth-child(3n) {
+    margin-right: 0;
+}

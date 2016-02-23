@@ -1,0 +1,7 @@
+body {
+    lost-utility: edit;
+    lost-flex-container: row;
+}
+div {
+    lost-column: 1/3;
+}

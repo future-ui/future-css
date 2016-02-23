@@ -1,0 +1,16 @@
+{
+  "name": "real-gutters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss -u lost -c options.json -d dist src/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lost": "^6.7.2",
+    "normalize.css": "^3.0.3",
+    "postcss-cli": "^2.5.1"
+  }
+}
